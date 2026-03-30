@@ -401,7 +401,7 @@
                             View My Work
                             <span class="iconify text-lg transition-transform duration-300 group-hover:translate-x-1" data-icon="lucide:arrow-right"></span>
                         </a>
-                        <a href="#" id="downloadResumeBtn" class="group inline-flex items-center gap-2 border-2 border-charcoal-700 hover:border-teal-600 text-white font-poppins font-semibold text-sm px-7 py-4 rounded-lg transition-all duration-300 hover:bg-teal-600/10">
+                        <a href="Ayush_Raj_Resume.pdf" id="downloadResumeBtn" class="group inline-flex items-center gap-2 border-2 border-charcoal-700 hover:border-teal-600 text-white font-poppins font-semibold text-sm px-7 py-4 rounded-lg transition-all duration-300 hover:bg-teal-600/10">
                             <span class="iconify text-lg" data-icon="lucide:download"></span>
                             View my Resume
                         </a>
@@ -1566,12 +1566,6 @@
         });
 
         // ===== DOWNLOAD BUTTONS =====
-        document.querySelectorAll('#downloadResumeBtn, #footerResumeBtn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.preventDefault();
-                showToast('Resume download will be available shortly!');
-            });
-        });
         document.querySelectorAll('#downloadPortfolioBtn, #footerPortfolioBtn').forEach(btn => {
             btn.addEventListener('click', (e) => {
                 e.preventDefault();
